@@ -17,43 +17,43 @@ export default function Header() {
                     <div className="col-12">
                         <div className="main_header d-flex justify-content-between align-items-center">
                             <div className="header_logo">
-                                <a className="sticky_none" href="index.html"><img src={require("../assets/img/theme/logo/logo.webp").default} alt="" /></a>
+                                <a className="sticky_none" href="#"><img src={require("../assets/img/theme/logo/logo.webp").default} alt="" /></a>
                             </div>
                             <div className="main_menu d-none d-lg-block">
                                 <nav>
                                     <ul className="d-flex">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="match.html">Match</a>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Match</a>
                                             <ul className="sub_menu">
-                                                <li><a href="match.html">Match Page</a></li>
-                                                <li><a href="match-details.html">Match Details</a></li>
+                                                <li><a href="#">Match Page</a></li>
+                                                <li><a href="#">Match Details</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">Pages</a>
                                             <ul className="sub_menu">
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="all-game.html">All Game</a></li>
-                                                <li><a href="game-details.html">Game Details</a></li>
-                                                <li><a href="faq.html">Faq Page</a></li>
-                                                <li><a href="players.html">Players</a></li>
-                                                <li><a href="player-details.html">Player Details</a></li>
-                                                <li><a href="404.html">Error 404</a></li>
+                                                <li><a href="#">About Us</a></li>
+                                                <li><a href="#">All Game</a></li>
+                                                <li><a href="#">Game Details</a></li>
+                                                <li><a href="#">Faq Page</a></li>
+                                                <li><a href="#">Players</a></li>
+                                                <li><a href="#">Player Details</a></li>
+                                                <li><a href="#">Error 404</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="blog-left-sidebar.html">blog</a>
+                                        <li><a href="#">blog</a>
                                             <ul className="sub_menu">
-                                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                                <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                                <li><a href="blog-without-sidebar.html">Blog Without Sidebar</a></li>
-                                                <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
-                                                <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
-                                                <li><a href="blog-grid-without-sidebar.html">Blog Grid Without Sidebar</a></li>
-                                                <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                                                <li><a href="blog-details-right-sidebar.html">Blog Details Right Sidebar</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
+                                                <li><a href="#">Blog Left Sidebar</a></li>
+                                                <li><a href="#">Blog Right Sidebar</a></li>
+                                                <li><a href="#">Blog Without Sidebar</a></li>
+                                                <li><a href="#">Blog Grid Left Sidebar</a></li>
+                                                <li><a href="#">Blog Grid Right Sidebar</a></li>
+                                                <li><a href="#">Blog Grid Without Sidebar</a></li>
+                                                <li><a href="#">Blog Details Left Sidebar</a></li>
+                                                <li><a href="#">Blog Details Right Sidebar</a></li>
+                                                <li><a href="#">Blog Details</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="#">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
